@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import Logout from '../Logout';
 import { API_BASE_URL } from '../../../Config';
-import { FaEdit, FaTrash, FaPlus, FaBuilding } from 'react-icons/fa';
+import { FaEdit, FaTrash, FaPlus, FaBuilding, FaCheckCircle } from 'react-icons/fa';
 
 export default function View() {
   const [companies, setCompanies] = useState([]);
